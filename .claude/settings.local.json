@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell($env:Path = [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"Machine\"\\); node -e \"console.log\\(require\\('C:/Users/felipe.franco/Downloads/Copa GPAA/bolao/node_modules/next/package.json'\\).version\\)\")",
+      "mcp__Claude_Preview__preview_start",
+      "PowerShell(Remove-Item \"C:\\\\Users\\\\felipe.franco\\\\Downloads\\\\Copa GPAA\\\\bolao\\\\README.md\" -Confirm:$false)"
+    ]
+  }
+}
